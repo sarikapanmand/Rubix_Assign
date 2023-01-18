@@ -1,11 +1,11 @@
 import React from 'react';
 import './Home.css';
-import Header from './Header/Header';
-import Banner from './Banner/Banner';
-import AboutUs from './AboutUs/AboutUs';
-import TechForTeens from './TechForTeens/TechForTeens';
-import ContactUs from './ContactUs/ContactUs';
-import Footer from './Footer/Footer';
+import Header from './Components/Header';
+import Banner from './Components/Banner';
+import AboutUs from './Components/AboutUs';
+import TechForTeens from './Components/TechForTeens';
+import ContactUs from '.Components/ContactUs';
+import Footer from './Components/Footer';
 function Home() {
   return (
     <div>
@@ -19,4 +19,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
